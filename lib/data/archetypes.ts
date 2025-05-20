@@ -1,0 +1,58 @@
+import type { Archetype } from "@/types/archetype"
+
+export const archetypes: Archetype[] = [
+  {
+    id: "villamelon",
+    name: "El Villamelón",
+    team: "tigres",
+    description: "Sólo aparece cuando el equipo gana... y presume cada gol.",
+    unlockCondition: "complete_challenge:caos_colectivo",
+    challengeModes: ["individual", "grupo"],
+    stickerUrl: "/placeholder.svg?height=200&width=200",
+  },
+  {
+    id: "comentarista_bar",
+    name: "El Comentarista de Bar",
+    team: "tigres",
+    description: "Sabe más que el DT y no duda en decirlo.",
+    unlockCondition: "complete_challenge:rueda_desmadre",
+    challengeModes: ["individual", "dueto"],
+    stickerUrl: "/placeholder.svg?height=200&width=200",
+  },
+  {
+    id: "rival_secreto",
+    name: "El Rival Secreto",
+    team: "rayados",
+    description: "Admira al rival pero jamás lo admitirá en público.",
+    unlockCondition: "complete_challenge:respuesta_incomoda",
+    challengeModes: ["individual", "dueto"],
+    stickerUrl: "/placeholder.svg?height=200&width=200",
+  },
+  {
+    id: "hater_favorito",
+    name: "El Hater Favorito",
+    team: "rayados",
+    description: "Siempre tiene algo negativo que decir sobre el rival.",
+    unlockCondition: "complete_challenge:opinion_polemica",
+    challengeModes: ["individual", "grupo"],
+    stickerUrl: "/placeholder.svg?height=200&width=200",
+  },
+  {
+    id: "clasico_doloroso",
+    name: "El Clásico Doloroso",
+    team: "tigres",
+    description: "Revive con dolor cada derrota en el clásico.",
+    unlockCondition: "complete_challenge:karaoke_emocional",
+    challengeModes: ["individual", "grupo"],
+    stickerUrl: "/placeholder.svg?height=200&width=200",
+  },
+  {
+    id: "supersticion_eterna",
+    name: "La Superstición Eterna",
+    team: "rayados",
+    description: "Tiene rituales específicos para cada partido contra el rival.",
+    unlockCondition: "complete_challenge:ritual_victoria",
+    challengeModes: ["individual", "dueto", "grupo"],
+    stickerUrl: "/placeholder.svg?height=200&width=200",
+  },
+]
